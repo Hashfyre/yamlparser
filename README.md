@@ -4,23 +4,12 @@
 
 The `yamlparser` script uses `sed` and `awk` to parse through a strict `YAML`  
 list and produces a set of `key=value` BASH variables which are then  
-directory usable inside the script.
+directly usable inside the script.
 
 This script is essentially called as a dependency from within another BASH script.  
 It helps make various hierarchical / conditional / contextual variable-name creation,  
 and `key=value`like access a piece of cake by externalizing all script configurations  
 as a parsable YAML list and passing it to `yamlpaser` in the lifetime of The original script.  
-
-## Installation
-
-```shell
-git clone git@bitbucket.org:cariq_devops/AzureScripts;
-/bin/bash ~/AzureScripts/setupscript/setupscript --install yamlparser
-```
-
-The following files are created post-installation:
-
-* /usr/local/bin/yamlparser - the parser
 
 ## Usage
 
@@ -73,8 +62,7 @@ I am not the author of the script. I just chose to host it and use it extensivel
 in most of my `bash` scripts as a dependency that lets me do `configuration over code`
 in `bash`.
 
-This code is copied from the following stackoverflow thread:
-http://stackoverflow.com/questions/5014632/how-can-i-parse-a-yaml-file-from-a-linux-shell-script
+This code is copied from the [stackoverflow thread](http://stackoverflow.com/questions/5014632/how-can-i-parse-a-yaml-file-from-a-linux-shell-script)
 
 ## Credits
 
@@ -84,3 +72,5 @@ http://stackoverflow.com/questions/5014632/how-can-i-parse-a-yaml-file-from-a-li
 
 CC-BY-SA
 [Stefan Farestam](http://stackoverflow.com/users/1792684/stefan-farestam)
+
+Re-released under MIT-License by Joy Bhattacherjee
