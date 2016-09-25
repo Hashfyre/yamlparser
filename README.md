@@ -51,10 +51,8 @@ echo ${!host_user} # -> Y
 
 ## Contributing
 
-1. Create your feature branch: `git checkout -b my-new-feature`
-2. Commit your changes: `git commit -am 'Add some feature'`
-3. Push to the branch: `git push origin my-new-feature`
-4. Submit a pull request :D
+1. Fork the repo
+2. Submit a pull request :D
 
 ## History
 
